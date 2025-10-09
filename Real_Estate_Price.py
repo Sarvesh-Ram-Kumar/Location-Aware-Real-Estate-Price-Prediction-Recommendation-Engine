@@ -203,7 +203,7 @@ def recommend_properties(user_input, model, df, ml_features,
         'BATHROOM_NUM': 1.5,
         'BALCONY_NUM': 1,
         'AREA': 2.5,
-        'FURNISH': 1,  # already encoded in preprocess
+        'FURNISH_CODE': 1,  # already encoded in preprocess
         'PROPERTY_TYPE_CODE': 1,
         'LOCALITY_CODE': 1,
         'TRANSACT_TYPE': 0.5,
