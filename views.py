@@ -64,7 +64,7 @@ def index(request):
         }
         ml_features = [
             'PROPERTY_TYPE_CODE', 'LOCALITY_CODE', 'TRANSACT_TYPE', 'OWNTYPE', 'AGE',
-            'BEDROOM_NUM', 'BATHROOM_NUM', 'BALCONY_NUM', 'AREA', 'FURNISH',
+            'BEDROOM_NUM', 'BATHROOM_NUM', 'BALCONY_NUM', 'AREA', 'FURNISH_CODE','FACING_CODE',
             'FLOOR_NUM', 'TOTAL_FLOOR', 'TOTAL_LANDMARK_COUNT',
             'QUALITY_SCORE', 'CITY_ID', 'FEATURE_SCORE', 'AMENITY_SCORE'
         ]
